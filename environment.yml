@@ -17,3 +17,4 @@ dependencies:
   - blast
   - keras
   - tensorflow
+  - tensorflow-gpu
