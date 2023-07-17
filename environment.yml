@@ -10,10 +10,10 @@ dependencies:
   - pillow
   - h5py
   - pandas
-  - keras=2.2.4
-  - tensorflow=1.12.0
   - mongodb
   - configparser
   - pymongo
   - feedparser
   - blast
+  - keras
+  - tensorflow
