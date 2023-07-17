@@ -5,6 +5,13 @@ This repository contains the stand-alone tools in python to run MusiteDeep on a 
 - 2 Homology-based search by BLAST: refer to [./mongoblast](https://github.com/duolinwang/MusiteDeep_web/tree/master/mongoblast) 
 - 3 Mapping the predicted PTM sites to protein 3D structure: refer to [./PTM2S](https://github.com/duolinwang/MusiteDeep_web/tree/master/PTM2S)
 
+### Installation
+
+Clone this repository and install all dependencies with conda:
+
+```sh
+conda env create -f environment.yml
+```
 
 ### Citation：
 Please select to cite the following paper for using MusiteDeep:
