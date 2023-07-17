@@ -3,7 +3,6 @@ channels:
   - conda-forge
   - bioconda
   - pytorch
-  - anaconda
 dependencies:
   - numpy
   - scipy
