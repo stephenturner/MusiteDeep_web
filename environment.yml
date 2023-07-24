@@ -2,19 +2,19 @@ name: mutesitedeep
 channels:
   - conda-forge
   - bioconda
-  - pytorch
-dependencies:
-  - numpy
-  - scipy
-  - scikit-learn
-  - pillow
-  - h5py
-  - pandas
+dependencies: 
+  - python=3.5
   - mongodb
-  - configparser
-  - pymongo
-  - feedparser
   - blast
-  - keras
-  - tensorflow
-  - tensorflow-gpu
+  - pip: 
+    - numpy
+    - scipy
+    - scikit-learn
+    - pillow
+    - h5py
+    - pandas
+    - feedparser
+    - pymongo
+    - configparser
+    - keras==2.2.4
+    - tensorflow==1.12.0
